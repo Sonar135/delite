@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+:root{
+    --shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    --accent: #7307f7;
+    --accent_tran: #1313139b;
+    --accent_hover:#510da4;
+    --accent_disabled:#08519f66;
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    list-style: none;
+    border:none;
+    outline:none;
+    text-decoration: none;
+    font-weight:400;
+    scroll-behavior: smooth;
+    transition: .3s;
+}
+
+
+.nav{
+    width:100%;
+    height:60px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.174);
+    display:flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width:154px;
+    height:100%
+}
+
+.center{
+    width:500px;
+    height:100%
+}
+
+.right{
+    width:230px;
+    height:100%;
+    display:flex;
+    align-items: center;
+}
+
+.center ul{
+    width: 100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a{
+    color:black;
+}
+
+.center li{
+    width: auto;
+    text-transform: capitalize;
+}
+
+
+.social{
+    width:30px;
+    height:30px;
+    border-radius: 100%;
+    margin:0 5px;
+    background: #000;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social i{
+    color:white;
+    font-size:16px;
+}
+
+.fb{
+    background-color: #3b5998
+}
+
+.twit{
+    background-color: #1da1f2
+}
+
+.lin{
+    background-color: #0077b5
+}
+
+.yout{
+    background-color: #cd201f
+}
+
+.right ul{
+       width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:black;
+    font-weight:800;
+    font-size:30px;
+}
+
+.content{
+    width:100%;
+    min-height:400px;
+}
+
+
+.sec1{
+height:600px;
+background: #EF9B9E;
+background: url("../images/dl.beatsnoop.com-final-zbaBKo0LGP.jpg");
+background-size: cover;
+position:relative;
+}
+
+.overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    background: #000000a7;
+    width:100%;
+    height:100%;
+}
+
+.sec1 .cent{
+    width:80%;
+    height:100%;
+    margin:0 auto;
+    display:flex;
+    padding-top:1px;
+}
+
+
+.text, .illu{
+    width:50%;
+    height:100%;
+}
+
+.text{
+    margin-top:150px;
+    height:auto;
+  
+}
+
+.text h4{
+    font-size:22px;
+    color:white;
+    font-weight:600;
+}
+ 
+ .text h1{
+    font-weight:800;
+    margin:16px 0;
+    font-size:50px;
+    color: white;
+ }
+
+ .text p{
+    color:white;
+    text-align:left;
+    font-weight:600;
+    line-height:26px;
+    font-size:16px;
+}
+
+.text span{
+    color: #ff914c;
+    font-weight:800;
+}
+
+
+.buttons{
+    width:40vw;
+    margin:20px auto;
+    display:flex;
+    gap:30px;
+}
+
+.button{
+    height:40px;
+    padding:16px;
+    border-radius: 24px;
+    background: #ff914c;
+    color:white;
+    display:flex;
+    align-items: center;
+    font-size:17px;
+    font-weight:600;
+}
