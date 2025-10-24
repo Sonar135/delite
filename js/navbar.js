@@ -9,13 +9,13 @@ document.addEventListener("DOMContentLoaded", () => {
 const profBox = document.querySelector(".prof_box");
 
 if (prof && profBox) {
-  // Toggle dropdown when clicking the profile
+
   prof.addEventListener("click", (e) => {
-    e.stopPropagation(); // Prevent the document click listener from firing
+    e.stopPropagation();
     profBox.classList.toggle("active");
   });
 
-  // Close dropdown when clicking anywhere outside
+
   document.addEventListener("click", (e) => {
     if (!prof.contains(e.target) && !profBox.contains(e.target)) {
       profBox.classList.remove("active");
